@@ -1,0 +1,24 @@
+@CHARSET "UTF-8";
+@IMPORT "common.css";
+@IMPORT "board.css";
+/* index.html */
+#index-tab{width: 75%;margin: 0 auto;color:powderblue;border: 2px solid powderblue;}
+.index-ul{width: 200px;margin-top: 10px;}
+.index-ul>li{border: 1px solid powderblue;padding-bottom: 5px;padding-left:4px;list-style-type: none;}
+.index-ul>li>a{text-decoration: none;}
+#index-tab-tr>td{text-align:center;width: 30%; padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;}
+#index-tab-tr>th{text-align:center;width: 30%; padding-left: 10px;padding-right: 10px;padding-top: 5px;padding-bottom: 5px;}
+#index-tab>tr{height: 25px;padding-top: 15px;}
+/* login.html*/
+#span-form{width: 100px;display: inline-block;margin-top: 55px;}
+#log-btn{color:white;background-color: powderblue;margin: 0 auto}
+#ok-btn{color:white;background-color: powderblue;width: 36.5%;margin: 0 auto;}
+#cancle-btn{color:white;background-color: powderblue;margin: 0 auto;}
+#container-form{width: 300px;margin: 0 auto;margin-top: 55px;}
+/*member_add.html*/
+#sub-btn{color:white;background-color: powderblue;margin: 0 auto;}
+#reset-btn{color:white;background-color: powderblue;margin: 0 auto;}
+#member-tab{width: 100%;margin: 0 auto;color:powderblue;border: 2px solid powderblue;height: 30%;}
+#member-tab>th, td {
+    border-bottom: 1px solid #ddd;
+}

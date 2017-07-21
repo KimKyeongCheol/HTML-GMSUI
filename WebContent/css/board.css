@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+@IMPORT "common.css";
+#body{background-image: url("../img/google.jpg");}
+.th5{width: 5%;}
+.th15{width: 15%;}
+.th20{width: 20%;}
+.th30{width: 30%;}
+#board-tab{margin: 0 auto;width: 100%;}
+table tr{height: 25px;}
+
+
