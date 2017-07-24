@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/member.css">
+<link rel="stylesheet" href="../css/footer.css">
 <title>Insert title here</title>
 </head>
 <body>
@@ -75,7 +76,9 @@
 			</tr>
 		</table>
 	</div>
-	<jsp:include page="../member/footer.jsp"/>
+	<div id="footer">
+		<jsp:include page="../member/footer.jsp"/>
+		</div>
 </div>
 </body>
-</html>>
+</html>

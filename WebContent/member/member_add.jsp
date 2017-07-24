@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Insert title here</title>
 <link rel="stylesheet" href="../css/member.css">
+<link rel="stylesheet" href="../css/footer.css">
 
 </head>
 <body>
@@ -19,7 +20,7 @@
 	<a href="../index.jsp" id="href">main</a>
 	<br>
 	<div id="div-style">
-	<form action="" id="joinform">
+	<form action="member_detail.jsp" id="joinform" method="get">
 	<fieldset>
 		<legend>Join information</legend>
 		<span id="span-form">ID</span>
@@ -32,11 +33,11 @@
 			<input name="phone" type="text" placeholder="전화번호"><br>
 		
 		<span id="span-form">생년월일</span>
-			<input name="brithday" type="date" placeholder="생년월일">
+			<input name="brithday" type="text" placeholder="생년월일">
 			<br>
 		<span >성별</span>
-			<input name="gender" type="radio" value="male" checked="checked">남성
-			<input name="gender" type="radio" value="female">여성<br>
+			<input name="gender" type="radio" value="남자" checked="checked">남성
+			<input name="gender" type="radio" value="여자">여성<br>
 			<span id="span-form">E-Mail</span>
 		<input type="email" name="email"><br>
 			<h4>전공</h4>
@@ -61,7 +62,9 @@
 	
 	</fieldset>
 	</form>
-	</div><jsp:include page="../member/footer.jsp"/>
+	</div><div id="footer">
+		<jsp:include page="../member/footer.jsp"/>
+		</div>
 </div>
 </body>
 </html>

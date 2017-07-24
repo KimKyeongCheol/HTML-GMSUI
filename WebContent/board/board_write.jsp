@@ -17,10 +17,10 @@
 	
 	<a href="../index.jsp" id="href">main</a>
 	<div id="container">
-		<form action="" method="get">
+		<form action="" method="get" >
 			<!-- <span>제목</span><input name="title"><br> -->
 			<span>내용</span><br>
-			<textarea name="msg" rows="30" cols="80"></textarea><br>
+			<textarea name="msg" rows="30" cols="80" ></textarea><br>
 			<input type="submit">
 		</form>
 	</div>	<jsp:include page="../member/footer.jsp"/>

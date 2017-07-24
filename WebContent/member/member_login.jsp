@@ -7,6 +7,7 @@
 
 <title>Insert title here</title>
 <link rel="stylesheet" href="../css/member.css">
+<link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
 	<div id="wrapper">
@@ -15,10 +16,10 @@
 	</header>
 	
 		<!-- 로그인화면  -->
-		<div id="container-form">
-			<a id="" href="../index.jsp"><img src="../img/google.jpg" /></a><br>
-			<div id="">
-				<form action="">
+		<div id="container-login">
+			<a href="../index.jsp" id="google"><img src="../img/google.jpg" /></a><br>
+			<div id="contatiner-form">
+				<form action="" >
 					<fieldset>
 						<legend>Login</legend>
 						<span id="span-form">ID</span> 
@@ -33,7 +34,9 @@
 					<button onclick="location.href='member_add.html'" id="log-btn">회원가입</button>
 			</div>
 		</div>
+	<div id="footer">
 		<jsp:include page="../member/footer.jsp"/>
+		</div>
 	</div>
 </body>
 </html>

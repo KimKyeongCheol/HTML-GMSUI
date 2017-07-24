@@ -4,6 +4,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/member.css">
+<link rel="stylesheet" href="../css/footer.css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
@@ -16,7 +17,10 @@
 		<a href="../index.jsp" id="href">Main</a>	
 		<div id="container">
 	</div>
-	<jsp:include page="../member/footer.jsp"/>
+
+	<div id="footer">
+		<jsp:include page="../member/footer.jsp"/>
+		</div>
 </div>
 </body>
 </html>
